@@ -5,7 +5,6 @@ public class StringManipulator {
 
     public Integer getIndexOrNull(String s1, char chr) {
         int i = s1.indexOf(chr);
-        char letter = 'o';
         if (i == -1) {
             return null;
         } else {

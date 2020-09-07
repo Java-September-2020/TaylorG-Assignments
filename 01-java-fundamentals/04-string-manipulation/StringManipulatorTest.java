@@ -3,7 +3,7 @@ public class StringManipulatorTest {
         StringManipulator manipulator = new StringManipulator();
         String str = manipulator.trimAndConcat("    Hello     ","     World    ");
         System.out.println(str); // HelloWorld 
-    // char letter = 'o';
+    char letter = 'o';
     Integer a = manipulator.getIndexOrNull("Coding", letter);
     Integer b = manipulator.getIndexOrNull("Hello World", letter);
     Integer c = manipulator.getIndexOrNull("Hi", letter);
